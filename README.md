@@ -13,29 +13,15 @@ make build
 ---
 
 
-### Game Controller Interface
+### Game Controller API
 
 `github.com/brandenc40/2048/game`
 
 ```go
 package game 
 
-// Direction for movement actions
-type Direction uint8
-
-const (
-	// DirectionLeft moves cells left
-	DirectionLeft Direction = iota
-	// DirectionUp moves cells up
-	DirectionUp
-	// DirectionRight moves cells right
-	DirectionRight
-	// DirectionDown moves cells down
-	DirectionDown
-)
-
-// Cells that make up the game board
-type Cells [4][4]uint16
+// NewController builds a new 2048 game board manager
+func NewController() Controller
 
 // Controller for controlling and viewing the game board
 type Controller interface {
@@ -54,6 +40,20 @@ type Controller interface {
 	Reset()
 }
 
-// NewController builds a new 2048 game board manager
-func NewController() Controller
+// Cells that make up the game board
+type Cells [4][4]uint16
+
+// Direction for movement actions
+type Direction uint8
+
+const (
+	// DirectionLeft moves cells left
+	DirectionLeft Direction = iota
+	// DirectionUp moves cells up
+	DirectionUp
+	// DirectionRight moves cells right
+	DirectionRight
+	// DirectionDown moves cells down
+	DirectionDown
+)
 ```
