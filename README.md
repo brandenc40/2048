@@ -10,7 +10,7 @@ make build
 ./2048
 ```
 
-![alt text](screenshot.png)
+![2048 Game Screenshot](screenshot.png)
 
 
 ## Game Controller Interface
