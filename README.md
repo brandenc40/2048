@@ -20,7 +20,7 @@ make build
 ```go
 package game 
 
-// NewController builds a new 2048 game board manager
+// NewController builds a new 2048 game board controller
 func NewController() Controller
 
 // Controller for controlling and viewing the game board
