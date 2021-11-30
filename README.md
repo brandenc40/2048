@@ -14,6 +14,9 @@ make build
 
 
 ## Game Controller Interface
+
+`github.com/brandenc40/2048/game`
+
 ```go
 package game 
 
