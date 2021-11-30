@@ -1,19 +1,19 @@
-# 2048
+![2048 Game Screenshot](screenshot.png)
 
-> ## Play 2048 directly in your terminal or use the Game Controller as a standalone go package.
+## Play 2048 directly in your terminal or use the Game Controller as a standalone go package.
 
 
-## Play from the Terminal 
+### Play from the Terminal 
 
 ```shell
 make build
 ./2048
 ```
 
-![2048 Game Screenshot](screenshot.png)
+---
 
 
-## Game Controller Interface
+### Game Controller Interface
 
 `github.com/brandenc40/2048/game`
 
