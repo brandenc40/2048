@@ -3,7 +3,7 @@
 ## Play 2048 directly in your terminal or use the Game Controller API as a standalone Go module
 
 
-### Play from the Terminal 
+### 1. Play from the Terminal 
 
 ```shell
 make build
@@ -11,11 +11,13 @@ make build
 ```
 
 ---
+## or
+---
 
 
-### Game Controller API
+### 2. Use the Game Controller API
 
-`github.com/brandenc40/2048/game`
+`import "github.com/brandenc40/2048/game"`
 
 ```go
 package game 
